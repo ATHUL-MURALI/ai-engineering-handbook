@@ -1,0 +1,23 @@
+# Secrets and local settings: never commit these (topic 23 `02-compose-and-config/03-secrets`).
+.env
+.env.*
+!.env.example
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.deepeval/
+
+# Node / the React build
+node_modules/
+dist/
+
+# Local databases and files the lessons create
+*.sqlite
+*.sqlite-*
+*.db
